@@ -82,3 +82,22 @@
 # print(result)
 
 
+# def determine_even_odd(number): #6 задание А
+#     if number % 2 == 0:
+#         print("Парное")
+#     else:
+#         print("Не парное")
+#
+# user_number = int(input("Enter a number: "))
+# determine_even_odd(user_number)
+
+# def filter_even_numbers(number_list): #6 задание B
+#     even_numbers = []
+#     for number in number_list:
+#         if number % 2 == 0:
+#             even_numbers.append(number)
+#     return even_numbers
+#
+# number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# result = filter_even_numbers(number_list)
+# print(result)
