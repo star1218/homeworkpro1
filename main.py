@@ -42,9 +42,26 @@
 # print("Среднее значение списка:",average)
 
 
-def sum_list(lst1,lst2): #3 Задание В
-    return list(set(lst1)& set(lst2))
-list1=[1,3,5,7,8]
-list2=[2,3,4,5,1]
-element=sum_list(list1,list2)
-print("Одинаковые цифры:",element)
+# def sum_list(lst1,lst2): #3 Задание В
+#     return list(set(lst1)& set(lst2))
+# list1=[1,3,5,7,8]
+# list2=[2,3,4,5,1]
+# element=sum_list(list1,list2)
+# print("Одинаковые цифры:",element)
+
+# def print_keys(dictionary): #4 задание A
+#     for key in dictionary.keys():
+#         print(key)
+# dictionary={"a": 1,"b": 2,"c": 3}
+# print_keys(dictionary)
+
+# def merge_dicts(dict1, dict2): #4 задание B
+#     merged_dicts=dict1.copy()
+#     merged_dicts.update(dict2)
+#     return merged_dicts
+# dict1={"a":1,"b":2,"c":3}
+# dict2={"a":4,"d":5,"f":6}
+# merged_dict = merge_dicts(dict1, dict2)
+# print("Два списка в одном:", merged_dict)
+
+
