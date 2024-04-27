@@ -64,6 +64,21 @@
 # merged_dict = merge_dicts(dict1, dict2)
 # print("Два списка в одном:", merged_dict)
 
+# def union_of_sets(set1, set2): #5 задание A
+#     union_set = set1.union(set2)
+#     return union_set
+#
+# set1 = {1, 2, 3}
+# set2 = {3, 4, 5}
+# result = union_of_sets(set1, set2)
+# print(result)
 
+# def check_subset(subset, set): #5 Задание B
+#     return subset.issubset(set)
+#
+# set1 = {1, 2}
+# set2 = {1, 2, 3, 4, 5}
+# result = check_subset(set1, set2)
+# print(result)
 
 
